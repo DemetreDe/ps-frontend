@@ -2,131 +2,85 @@
   {
     "id": 1,
     "name": "Product 1",
-    "price": 10.99
+    "price": 10.99,
+    "actual_price": 9.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
   },
   {
     "id": 2,
     "name": "Product 2",
-    "price": 15.99
+    "price": 15.99,
+    "actual_price": 12.99,
+    "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
   },
   {
     "id": 3,
     "name": "Product 3",
-    "price": 9.99
+    "price": 9.99,
+    "actual_price": 7.99,
+    "description": "Nullam euismod ligula vitae nibh finibus tincidunt."
   },
   {
     "id": 4,
     "name": "Product 4",
-    "price": 0.99
+    "price": 0.99,
+    "actual_price": 0.49,
+    "description": "Vestibulum tincidunt ligula sit amet nibh auctor, sed congue mi fringilla."
   },
   {
     "id": 5,
     "name": "Product 5",
-    "price": 19.99
+    "price": 19.99,
+    "actual_price": 16.99,
+    "description": "Suspendisse potenti. Fusce sit amet tellus a eros lobortis interdum vel non ipsum."
   },
   {
     "id": 6,
     "name": "Product 6",
-    "price": 19.99
+    "price": 19.99,
+    "actual_price": 17.99,
+    "description": "Aliquam accumsan tincidunt metus, vel finibus nisi gravida a."
   },
   {
     "id": 7,
     "name": "Product 7",
-    "price": 9.99
+    "price": 9.99,
+    "actual_price": 8.99,
+    "description": "Proin vulputate purus eu dui consectetur, sed dignissim nisi feugiat."
   },
   {
     "id": 8,
     "name": "Product 8",
-    "price": 9.99
+    "price": 9.99,
+    "actual_price": 7.99,
+    "description": "Duis eu nibh id velit consequat consequat."
   },
   {
-    "id": 6,
-    "name": "Product 6",
-    "price": 19.99
+    "id": 9,
+    "name": "Product 9",
+    "price": 12.99,
+    "actual_price": 10.99,
+    "description": "Donec pharetra enim eget arcu auctor, a lacinia nisi venenatis."
   },
   {
-    "id": 7,
-    "name": "Product 7",
-    "price": 9.99
+    "id": 10,
+    "name": "Product 10",
+    "price": 8.99,
+    "actual_price": 6.99,
+    "description": "Vestibulum vel tellus quis tellus blandit efficitur."
   },
   {
-    "id": 8,
-    "name": "Product 8",
-    "price": 9.99
+    "id": 11,
+    "name": "Product 11",
+    "price": 5.99,
+    "actual_price": 3.99,
+    "description": "Curabitur eu metus non eros convallis bibendum."
   },
   {
-    "id": 6,
-    "name": "Product 6",
-    "price": 19.99
-  },
-  {
-    "id": 7,
-    "name": "Product 7",
-    "price": 9.99
-  },
-  {
-    "id": 8,
-    "name": "Product 8",
-    "price": 9.99
-  },
-  {
-    "id": 6,
-    "name": "Product 6",
-    "price": 19.99
-  },
-  {
-    "id": 7,
-    "name": "Product 7",
-    "price": 9.99
-  },
-  {
-    "id": 8,
-    "name": "Product 8",
-    "price": 9.99
-  },
-  {
-    "id": 6,
-    "name": "Product 6",
-    "price": 19.99
-  },
-  {
-    "id": 7,
-    "name": "Product 7",
-    "price": 9.99
-  },
-  {
-    "id": 8,
-    "name": "Product 8",
-    "price": 9.99
-  },
-  {
-    "id": 6,
-    "name": "Product 6",
-    "price": 19.99
-  },
-  {
-    "id": 7,
-    "name": "Product 7",
-    "price": 9.99
-  },
-  {
-    "id": 8,
-    "name": "Product 8",
-    "price": 9.99
-  },
-  {
-    "id": 6,
-    "name": "Product 6",
-    "price": 19.99
-  },
-  {
-    "id": 7,
-    "name": "Product 7",
-    "price": 9.99
-  },
-  {
-    "id": 8,
-    "name": "Product 8",
-    "price": 9.99
+    "id": 12,
+    "name": "Product 12",
+    "price": 18.99,
+    "actual_price": 14.99,
+    "description": "Phasellus congue varius tortor, at tristique lectus pulvinar eget."
   }
 ]

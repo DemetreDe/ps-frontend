@@ -1,17 +1,15 @@
-import React, { useState, useRef } from "react";
+import React, { useContext, useRef } from "react";
 import './login.css';
+import AuthContext from "../context/auth-context";
 
 let Login = function () {
-    const [username, setUsername] = useState('');
-    const [password, setPassword] = useState('');
+    const context = useContext(AuthContext)
     const passwordRef = useRef();
     const usernameRef = useRef()
 
     const handleLogin = (e) => {
         e.preventDefault();
-        setUsername(usernameRef.current.value)
-        setPassword(passwordRef.current.value)
-        console.log(username, password);
+        console.log(usernameRef.current.value, passwordRef.current.value);
         passwordRef.current.value = ""
         usernameRef.current.value = ""
     }
