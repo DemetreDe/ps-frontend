@@ -1,9 +1,9 @@
 .navbar {
-  background-color: #333;
-  color: white;
+  background-color: #16110e;
+  color: whitesmoke;
   height: 70px;
   display: flex;
-  justify-content: center;
+  margin-bottom: 5%;
 }
 
 .navbar-container {
@@ -16,5 +16,5 @@
 .navbar-title {
   font-size: 24px;
   margin: 0;
-  padding-left: 20px;
+  padding-left: 5%;
 }

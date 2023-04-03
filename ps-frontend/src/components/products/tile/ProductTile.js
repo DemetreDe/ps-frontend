@@ -1,6 +1,6 @@
 import React from "react";
-import "./ProductPage.css";
-import image from "../../../resources/images/placeholder.jpg";
+import "./productTile.css";
+import image from "../../../resources/images/placeholder02.png";
 
 const ProductTile = ({ product }) => {
   return (

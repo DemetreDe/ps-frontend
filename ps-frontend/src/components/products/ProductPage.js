@@ -1,7 +1,7 @@
 import React from "react";
-import ProductTile from "./tile/ProductTile";
+import ProductTile from "./tile/productTile";
 import products from "../../resources/products.json";
-import "./ProductPage.css";
+import "./productPage.css";
 
 const ProductPage = () => {
   return (
