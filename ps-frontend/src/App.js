@@ -1,6 +1,5 @@
-import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+import Login from "./components/login/login"
 import Products from "./components/products/ProductPage";
 import NavBar from "./components/navBar/NavBar";
 import "./App.css";
@@ -14,6 +13,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/products" element={<Products />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
       </BrowserRouter>
     </div>
