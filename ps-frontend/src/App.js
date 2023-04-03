@@ -1,13 +1,15 @@
-import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import './App.css'
 
-import Products from "./components/products/products";
 import Login from "./components/login/login"
+import Products from "./components/products/ProductPage";
+import NavBar from "./components/navBar/NavBar";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
+      <NavBar />
+      <br />
+      <br />
       <BrowserRouter>
         <Routes>
           <Route path="/products" element={<Products />} />
