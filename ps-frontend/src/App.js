@@ -5,8 +5,8 @@ import Products from "./components/products/productPage";
 import ProductDetails from "./components/products/details/productDetails"
 import NavBar from "./components/navBar/navBar";
 import "./App.css";
-import ProtectedRoute from "./components/util/ProtectedRoute";
-import OpenRoute from "./components/util/OpenRoute";
+import ProtectedRoute from "./util/ProtectedRoute";
+import OpenRoute from "./util/OpenRoute";
 
 
 function App() {
