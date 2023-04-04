@@ -1,17 +1,20 @@
-import React, { useContext, useRef } from "react";
+import React, { useRef, useContext } from "react";
 import './login.css';
-import AuthContext from "../context/auth-context";
+import AuthContext from "../../context/auth-context";
 
 let Login = function () {
-    const context = useContext(AuthContext)
+    const authCtx = useContext(AuthContext);
+
     const passwordRef = useRef();
     const usernameRef = useRef()
 
+    //VALIDATION
+    //LOGIN REQUEST
+    //SEND TOKEN TO CONTEXT
     const handleLogin = (e) => {
         e.preventDefault();
         console.log(usernameRef.current.value, passwordRef.current.value);
-        passwordRef.current.value = ""
-        usernameRef.current.value = ""
+        authCtx.onLogin(usernameRef.current.value, passwordRef.current.value);
     }
 
     return (
