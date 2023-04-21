@@ -24,14 +24,27 @@ const ProductDetails = () => {
                 <img className="product-image__img" src={image} alt={product.name} />
             </div>
             <div className="product-info">
-                <h2 className="product-info__name">{product.name}</h2>
-                <p className="product-info__price">Price: ${product.price}</p>
-                <p className="product-info__actual-price">Actual Price: ${product.actual_price}</p>
-                <p className="product-info__description">Description: {product.description}</p>
-                <div className="buttons-container">
-                    <button onClick={handleEdit}>Edit</button>
-                    <button onClick={handleDelete}>Delete</button>
-                </div>
+                <form className="product-info-form" >
+                    <ul>
+                        <li className="product-info-form-left-inputs">
+                            <h3>Viewing {product.name}</h3>
+                            <input type="text" placeholder={product.name} />
+                            <input type="number" placeholder={product.price} />
+                            <input type="number" placeholder={product.actual_price} />
+                        </li>
+                        <li>
+                            <textarea type="text" placeholder={product.description} />
+                        </li>
+                    </ul>
+                    <ul className='product-info-form-edit-buttons'>
+                        <li>
+                            <button onClick={handleEdit}>Edit</button>
+                        </li>
+                        <li>
+                            <button onClick={handleDelete}>Delete</button>
+                        </li>
+                    </ul>
+                </form>
             </div>
         </div>
     );
